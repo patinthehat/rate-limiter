@@ -1,0 +1,30 @@
+{
+    "name": "patinthehat/rate-limiter",
+    "type": "library",
+    "description": "A PHP library that implements a basic per-second rate limiter",
+    "keywords": ["rate-limit", "library", "php", "limiter"],
+    "homepage": "https://github.com/patinthehat/rate-limiter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Organ",
+            "email": "trick.developer@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Permafrost\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
